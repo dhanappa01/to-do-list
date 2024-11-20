@@ -1,0 +1,28 @@
+
+
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#task-list li {
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+}
+
+#task-list li:hover {
+    background-color: #ddd;
+}
+
+#task-list .done {
+    text-decoration: line-through;
+}
+
